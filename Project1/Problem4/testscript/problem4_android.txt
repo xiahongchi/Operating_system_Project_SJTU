@@ -1,0 +1,40 @@
+xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
+root@generic:/ # /data/misc/server                                             
+Server initiating...
+Receiving message: First Message! Good day!
+Receiving message: Second Message! Hello Teaching Assistant!
+Server thread closing...
+Receiving message: The left one end, and I put the fourth message! How are you?
+Server thread closing...
+Server thread closing...
+^C
+130|root@generic:/ # 
+
+xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
+root@generic:/ # /data/misc/client                                             
+Please enter the message:
+First Message! Good day!
+From server: Iluvw Phvvdjh! Jrrg gdb!
+:q
+Client closing...
+root@generic:/ # 
+
+xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
+root@generic:/ # /data/misc/client                                             
+Please enter the message:
+Second Message! Hello Teaching Assistant!
+From server: Vhfrqg Phvvdjh! Khoor Whdfklqj Dvvlvwdqw!
+:q
+Client closing...
+root@generic:/ # 
+
+xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
+root@generic:/ # /data/misc/client                                             
+Please enter the message:
+Third Message! How are you?
+From server: Please wait...
+The left one end, and I put the fourth message! How are you?
+From server: Wkh ohiw rqh hqg, dqg L sxw wkh irxuwk phvvdjh! Krz duh brx?
+:q
+Client closing...
+root@generic:/ # 
