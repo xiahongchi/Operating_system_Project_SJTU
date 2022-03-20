@@ -1,3 +1,4 @@
+First one: server
 xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
 root@generic:/ # /data/misc/server                                             
 Server initiating...
@@ -10,6 +11,7 @@ Server thread closing...
 ^C
 130|root@generic:/ # 
 
+Second one: client
 xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
 root@generic:/ # /data/misc/client                                             
 Please enter the message:
@@ -19,6 +21,7 @@ From server: Iluvw Phvvdjh! Jrrg gdb!
 Client closing...
 root@generic:/ # 
 
+Third one: client
 xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
 root@generic:/ # /data/misc/client                                             
 Please enter the message:
@@ -28,6 +31,7 @@ From server: Vhfrqg Phvvdjh! Khoor Whdfklqj Dvvlvwdqw!
 Client closing...
 root@generic:/ # 
 
+Fourth one: Client
 xiahongchi@ubuntu:~/OSdesign/caesar_sc$ adb shell
 root@generic:/ # /data/misc/client                                             
 Please enter the message:
